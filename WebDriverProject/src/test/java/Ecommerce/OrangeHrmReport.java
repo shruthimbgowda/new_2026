@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 
 /* 1) open application
-   2) Test logo presence
+   2) Test logo visibility
    3) login to application
    4) logout from application
  */

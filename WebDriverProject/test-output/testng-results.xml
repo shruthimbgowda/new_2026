@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="7" passed="5" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-11T21:13:29 SAST" name="Suite" finished-at="2026-03-11T21:13:54 SAST" duration-ms="24741">
+  <suite started-at="2026-03-11T23:58:23 SAST" name="Suite" finished-at="2026-03-11T23:58:48 SAST" duration-ms="25730">
     <groups>
     </groups>
-    <test started-at="2026-03-11T21:13:29 SAST" name="Test" finished-at="2026-03-11T21:13:54 SAST" duration-ms="24741">
+    <test started-at="2026-03-11T23:58:23 SAST" name="Test" finished-at="2026-03-11T23:58:48 SAST" duration-ms="25730">
       <class name="Ecommerce.OrangeHrmReport">
-        <test-method is-config="true" signature="login()[pri:0, instance:Ecommerce.OrangeHrmReport@4fb61f4a]" started-at="2026-03-11T21:13:43 SAST" name="login" finished-at="2026-03-11T21:13:51 SAST" duration-ms="7919" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:Ecommerce.OrangeHrmReport@4fb61f4a]" started-at="2026-03-11T23:58:37 SAST" name="login" finished-at="2026-03-11T23:58:45 SAST" duration-ms="7852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="testLogo()[pri:1, instance:Ecommerce.OrangeHrmReport@4fb61f4a]" started-at="2026-03-11T21:13:51 SAST" name="testLogo" finished-at="2026-03-11T21:13:54 SAST" duration-ms="3048" status="PASS">
+        <test-method signature="testLogo()[pri:1, instance:Ecommerce.OrangeHrmReport@4fb61f4a]" started-at="2026-03-11T23:58:45 SAST" name="testLogo" finished-at="2026-03-11T23:58:48 SAST" duration-ms="3034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogo -->
-        <test-method signature="testAppUrl()[pri:2, instance:Ecommerce.OrangeHrmReport@4fb61f4a]" started-at="2026-03-11T21:13:54 SAST" name="testAppUrl" finished-at="2026-03-11T21:13:54 SAST" duration-ms="9" status="FAIL">
+        <test-method signature="testAppUrl()[pri:2, instance:Ecommerce.OrangeHrmReport@4fb61f4a]" started-at="2026-03-11T23:58:48 SAST" name="testAppUrl" finished-at="2026-03-11T23:58:48 SAST" duration-ms="9" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://opensource-demo.orangehrm.com/web/index.php/auth/login] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]]>
@@ -61,7 +61,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAppUrl -->
-        <test-method signature="testHomePageTitle()[pri:3, instance:Ecommerce.OrangeHrmReport@4fb61f4a]" started-at="2026-03-11T21:13:54 SAST" name="testHomePageTitle" finished-at="2026-03-11T21:13:54 SAST" depends-on-methods="Ecommerce.OrangeHrmReport.testAppUrl" duration-ms="0" status="SKIP">
+        <test-method signature="testHomePageTitle()[pri:3, instance:Ecommerce.OrangeHrmReport@4fb61f4a]" started-at="2026-03-11T23:58:48 SAST" name="testHomePageTitle" finished-at="2026-03-11T23:58:48 SAST" depends-on-methods="Ecommerce.OrangeHrmReport.testAppUrl" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method Ecommerce.OrangeHrmReport.testHomePageTitle() on instance Ecommerce.OrangeHrmReport@4fb61f4a depends on not successfully finished methods 
@@ -95,25 +95,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageTitle -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Ecommerce.OrangeHrmReport@4fb61f4a]" started-at="2026-03-11T21:13:54 SAST" name="logout" finished-at="2026-03-11T21:13:54 SAST" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:Ecommerce.OrangeHrmReport@4fb61f4a]" started-at="2026-03-11T23:58:48 SAST" name="logout" finished-at="2026-03-11T23:58:48 SAST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- Ecommerce.OrangeHrmReport -->
       <class name="Ecommerce.OrangeHrm">
-        <test-method signature="openapp()[pri:1, instance:Ecommerce.OrangeHrm@5f058f00]" started-at="2026-03-11T21:13:29 SAST" name="openapp" finished-at="2026-03-11T21:13:34 SAST" duration-ms="5112" status="PASS">
+        <test-method signature="openapp()[pri:1, instance:Ecommerce.OrangeHrm@5f058f00]" started-at="2026-03-11T23:58:23 SAST" name="openapp" finished-at="2026-03-11T23:58:29 SAST" duration-ms="5840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method signature="testLogo()[pri:2, instance:Ecommerce.OrangeHrm@5f058f00]" started-at="2026-03-11T21:13:34 SAST" name="testLogo" finished-at="2026-03-11T21:13:38 SAST" duration-ms="3033" status="PASS">
+        <test-method signature="testLogo()[pri:2, instance:Ecommerce.OrangeHrm@5f058f00]" started-at="2026-03-11T23:58:29 SAST" name="testLogo" finished-at="2026-03-11T23:58:32 SAST" duration-ms="3032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogo -->
-        <test-method signature="testLogin()[pri:3, instance:Ecommerce.OrangeHrm@5f058f00]" started-at="2026-03-11T21:13:38 SAST" name="testLogin" finished-at="2026-03-11T21:13:38 SAST" duration-ms="177" status="PASS">
+        <test-method signature="testLogin()[pri:3, instance:Ecommerce.OrangeHrm@5f058f00]" started-at="2026-03-11T23:58:32 SAST" name="testLogin" finished-at="2026-03-11T23:58:32 SAST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogout()[pri:4, instance:Ecommerce.OrangeHrm@5f058f00]" started-at="2026-03-11T21:13:38 SAST" name="testLogout" finished-at="2026-03-11T21:13:43 SAST" duration-ms="5044" status="PASS">
+        <test-method signature="testLogout()[pri:4, instance:Ecommerce.OrangeHrm@5f058f00]" started-at="2026-03-11T23:58:32 SAST" name="testLogout" finished-at="2026-03-11T23:58:37 SAST" duration-ms="5302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->

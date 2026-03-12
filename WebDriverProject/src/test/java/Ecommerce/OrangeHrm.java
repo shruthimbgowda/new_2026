@@ -1,23 +1,15 @@
 package Ecommerce;
 
-import java.io.File;
-import java.io.IOException;
 import java.time.Duration;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
-
-import com.aventstack.extentreports.MediaEntityBuilder;
 
 
 /* 1) open application
-   2) Test logo presence
+   2) Test logo visibility
    3) login to application
    4) logout from application
  */

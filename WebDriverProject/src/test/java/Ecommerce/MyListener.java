@@ -9,13 +9,13 @@ import org.testng.ITestResult;
 
           public void onStart(ITestContext context) {
         	  
-        	  System.out.println("test execution started......");
+        	  System.out.println("test execution started.......");
     
           }
          
 	public void onTestStart(ITestResult result) {
 		
-		System.out.println("test started..");
+		System.out.println("test started...");
 	  
 }
      public  void onTestSuccess(ITestResult result) {
